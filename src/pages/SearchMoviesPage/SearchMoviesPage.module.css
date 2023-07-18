@@ -1,0 +1,28 @@
+.search_page {
+  display: block;
+  margin-top: 10px;
+}
+.title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.films_list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.item {
+  display: block;
+  padding: 5px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(248, 207, 180);
+  border: 1px solid black;
+}
+.film_img {
+  margin-bottom: 5px;
+  border: inherit;
+}

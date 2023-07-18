@@ -1,0 +1,28 @@
+.reviews_wrap {
+  display: block;
+  margin-top: 10px;
+}
+.title {
+  margin-bottom: 6px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.reviews_list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.reviews_item {
+  display: block;
+  padding: 5px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #000000;
+  background-color: rgb(248, 207, 180);
+}
+.author {
+  margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: 500;
+}

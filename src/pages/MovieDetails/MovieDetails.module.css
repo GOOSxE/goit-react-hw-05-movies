@@ -1,0 +1,78 @@
+.details_page {
+  margin-top: 10px;
+}
+.goback_btn {
+  display: block;
+  text-align: center;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(248, 207, 180);
+  border: 1px solid black;
+}
+.goback_btn:hover,
+.goback_btn:focus {
+  background-color: rgb(255, 155, 88);
+}
+.movie_details {
+  display: block;
+  padding: 5px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(248, 207, 180);
+  border: 1px solid black;
+}
+.movie_poster {
+  display: block;
+  margin-bottom: 8px;
+  border: 1px solid black;
+}
+.title {
+  margin-bottom: 6px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.score {
+  margin-bottom: 2px;
+}
+.overview,
+.genres {
+  margin-bottom: 4px;
+}
+.genres_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.info_title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.additional_info {
+  display: flex;
+  justify-content: space-around;
+  gap: 6px;
+}
+.info_item {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(248, 207, 180);
+}
+.info_link {
+    display: block;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 500px;
+  color: #000000;
+}
+.info_item:hover,
+.info_item:focus {
+  background-color: rgb(255, 155, 88);
+}

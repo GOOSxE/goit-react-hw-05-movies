@@ -1,0 +1,37 @@
+.cast_wrap {
+  display: block;
+  margin-top: 10px;
+}
+.title {
+  margin-bottom: 6px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.cast_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.cast_item {
+  display: block;
+  width: 140px;
+  padding: 5px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #000000;
+  background-color: rgb(248, 207, 180);
+}
+.cast_poster {
+  display: block;
+  margin-bottom: 6px;
+  border: 1px solid black;
+}
+.actor_info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.name_span {
+    display: block;
+}
